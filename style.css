@@ -1,0 +1,40 @@
+.breadcrumb li {
+    display: inline;
+}
+  .breadcrumb li+li::before {
+    color: grey;
+    content: ">";
+}
+img {
+    height: auto;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+h2 {
+color:white;
+font-family: 'Ruda', sans-serif;
+font-size: 70px;
+font-weight: 900;
+margin: 0px;
+padding-top: 20px;
+text-align: center;
+text-transform: uppercase;
+}
+h3,h4,h5,h6 {
+    color:#ffffff;
+    font-family: 'Ruda', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0px;
+    padding-top: 20px;
+    text-align: center;
+}
+h7 {
+    color:#ffffff;
+    font-family: 'Ruda', sans-serif;
+    font-size: 10px;
+    font-weight: 900;
+    margin: 0px;
+    padding-top: 20px;
+}
