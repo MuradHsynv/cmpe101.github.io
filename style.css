@@ -1,28 +1,62 @@
+/* * {
+    background-image: url('https://mcdn.wallpapersafari.com/medium/6/67/Mmsur9.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+} */
 .breadcrumb li {
     display: inline;
 }
   .breadcrumb li+li::before {
-    color: grey;
+    color: rgb(255, 8, 0);
     content: ">";
 }
-img {
+a {
+    color: rgb(255, 8, 0);
+}
+.fixed-button {
+    position: fixed;
+    top: 20px; /* Adjust the desired distance from the bottom */
+    right: 0px; /* Adjust the desired distance from the right */
+    z-index: 9999;
+  }
+.pic {
+    display: flex;
+    justify-content: space-between;
+}
+#gbyf {
+    float: left ;
     height: auto;
     width: auto;
-    display: block;
+    display: flex;
+    margin: auto;
+}
+#tbd {
+    justify-content: center;
+    height: auto;
+    width: auto;
+    display: flex;
+    margin: auto;
+}
+#ted {
+    float: right ;
+    height: auto;
+    width: auto;
+    display: flex;
     margin: auto;
 }
 h2 {
-color:white;
-font-family: 'Ruda', sans-serif;
-font-size: 70px;
-font-weight: 900;
-margin: 0px;
-padding-top: 20px;
-text-align: center;
-text-transform: uppercase;
+    color: rgb(0, 255, 234);
+    font-family: 'Ruda', sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    margin: 0px;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
 }
 h3,h4,h5 {
-    color:#ffffff;
+    color:  rgb(0, 173, 23);;
     font-family: 'Ruda', sans-serif;
     font-size: 30px;
     font-weight: 900;
@@ -30,14 +64,54 @@ h3,h4,h5 {
     padding-top: 20px;
     text-align: center;
 }
-p {
-    color:#ffffff;
+#gen {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#steps {
+    color: rgb(255, 51, 0);
+    font-size: 20px;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+#project {
+    color: rgb(72, 255, 0);
     font-size: 20px;
     margin: 0px;
     padding-top: 20px;
 }
-button {
+#extra {
     text-align: center;
+    color: rgb(255, 196, 0);
+    font-size: 20px;
+    margin: 0px;
+    padding-top: 20px;
+}
+#content {
+    min-height: calc(100% - 60px); /* Adjust the height based on your footer's height */
+    padding-bottom: 100px; /* Adjust the padding to create space for the footer */
+  }  
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }  
+#code {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+button {
     margin: auto;
-    border: 3px solid green;
+    border: 3px solid rgb(0, 0, 0);
 }
