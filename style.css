@@ -8,7 +8,7 @@ html {
     display: inline;
     float: left;
 }
-  .breadcrumb li+li::before {
+.breadcrumb li+li::before {
     color: rgb(255, 8, 0);
     content: ">";
 }
@@ -27,27 +27,38 @@ a {
 }
 #gbyf {
     float: left ;
-    height: auto;
-    width: auto;
+    height: 245px;
+    width: 370px;
     display: flex;
-    margin: auto;
+    background-color: transparent;
 }
 #tbd {
     justify-content: center;
-    height: auto;
-    width: auto;
+    height: 245px;
+    width: 370px;
     display: flex;
     margin: auto;
+    background-color: transparent;
 }
 #ted {
     float: right ;
-    height: auto;
-    width: auto;
+    height: 245px;
+    width: 370px;
     display: flex;
-    margin: auto;
 }
 .soc {
+    display: flex;
+    justify-content: space-between;
+}
+.gbyfsoc1,.gbyfsoc2,.gbyfsoc3 {
+    text-align: left;
+}
+.tbdsoc {
+    text-align: center;
+}
+.tedusoc1,.tedusoc2,.tedusoc3 {
     text-align: right;
+    right: 0px;
 }
 h2 {
     color: rgb(255, 94, 0);
@@ -133,7 +144,35 @@ button {
     h5 {
       font-size: 20px;
     }
-  
+
+    .soc {
+        display: list-item;
+    }
+    
+    #gbyf {
+        float: left ;
+        height: auto;
+        width: auto;
+        display: flex;
+        margin: auto;
+    }
+    
+    #tbd {
+        justify-content: center;
+        height: auto;
+        width: auto;
+        display: flex;
+        margin: auto;
+    }
+    
+    #ted {
+        float: right ;
+        height: auto;
+        width: auto;
+        display: flex;
+        margin: auto;
+    }
+
     #gen,
     #project,
     #extra {
