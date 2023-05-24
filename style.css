@@ -47,13 +47,7 @@ a {
     margin: auto;
 }
 .soc {
-    text-align: center;
-}
-.social {
-    justify-content: center;
-}
-.tedu {
-    justify-content: right;
+    text-align: right;
 }
 h2 {
     color: rgb(255, 94, 0);
