@@ -120,3 +120,52 @@ button {
     border: 3px solid rgb(255, 0, 0);
     background-color: black;
 }
+
+/* Mobile-specific styles */
+@media only screen and (max-width: 600px) {
+    /* Adjust the maximum width based on your mobile layout */
+    h2 {
+      font-size: 30px;
+    }
+  
+    h3,
+    h4,
+    h5 {
+      font-size: 20px;
+    }
+  
+    #gen,
+    #project,
+    #extra {
+      font-size: 14px;
+    }
+
+    #steps {
+        font-size: 14px;
+        padding-left: 10px; /* Adjust the padding for mobile */
+        padding-right: 10px; /* Adjust the padding for mobile */  
+    }
+    
+    .breadcrumb li {
+        float: none; /* Remove float to ensure proper display on small screens */
+    }
+
+    .breadcrumb li+li::before {
+      display: none;
+    }
+  
+    #code {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .pic {
+        flex-wrap: wrap; /* Allow the items to wrap on small screens */
+    }
+
+    .fixed-button {
+      position: static;
+      margin-bottom: 20px;
+    }
+  }
