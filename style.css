@@ -89,6 +89,10 @@ h3,h4,h5 {
 }
 #steps {
     color: rgb(255, 255, 255);
+    background-image: url("https://t4.ftcdn.net/jpg/02/99/92/49/360_F_299924952_i66W084lGHnNULJ0B3EWQssGhK0Ur0nQ.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     font-size: 20px;
     margin: 0px;
     padding-top: 20px;
