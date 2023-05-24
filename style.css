@@ -1,12 +1,19 @@
+html {
+    background-image: url('https://cdn.wallpapersafari.com/34/69/woZQ4d.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+} 
 .breadcrumb li {
     display: inline;
+    float: left;
 }
   .breadcrumb li+li::before {
     color: rgb(255, 8, 0);
     content: ">";
 }
 a {
-    color: rgb(255, 8, 0);
+    color: rgb(60, 255, 0);
 }
 .fixed-button {
     position: fixed;
@@ -39,8 +46,17 @@ a {
     display: flex;
     margin: auto;
 }
+.soc {
+    text-align: center;
+}
+.social {
+    justify-content: center;
+}
+.tedu {
+    justify-content: right;
+}
 h2 {
-    color: rgb(0, 255, 234);
+    color: rgb(255, 94, 0);
     font-family: 'Ruda', sans-serif;
     font-size: 70px;
     font-weight: 900;
@@ -67,7 +83,7 @@ h3,h4,h5 {
     padding-right: 10px;
 }
 #steps {
-    color: rgb(255, 51, 0);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     margin: 0px;
     padding-top: 20px;
@@ -76,7 +92,7 @@ h3,h4,h5 {
     text-align: center;
 }
 #project {
-    color: rgb(72, 255, 0);
+    color: rgb(83, 0, 131);
     font-size: 20px;
     margin: 0px;
     padding-top: 20px;
@@ -107,5 +123,6 @@ h3,h4,h5 {
 }
 button {
     margin: auto;
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid rgb(255, 0, 0);
+    background-color: black;
 }
